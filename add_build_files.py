@@ -2,18 +2,19 @@
 
 import os
 
-def build_file_for(package_name):
+def build_file_for(package_name, rule):
   return  """package(default_visibility = ["//visibility:public"])
 
-scala_library(
-    name = "{}",
+{rule_name}(
+    name = "{package_name}",
     srcs = glob(["*.java"]) + glob(["*.scala"]),
     runtime_deps = [
     ],
     deps = [
     ],
 )
-""".format(package_name)
+""".format(rule_name = rule,package_name = package_name)
+
 
 build_files_paths = set()
 for path, subdirs, files in os.walk("src"):
@@ -26,9 +27,15 @@ for path in build_files_paths:
 
     path_tokens = path.split("/")
 
-    with open("{}/BUILD.bazel".format(path), "w+") as f:
-        # print(build_file_for(path_tokens[-1]))
-        f.write(build_file_for(path_tokens[-1]))
+    if "/test/" in path:
+        with open("{}/BUILD.bazel".format(path), "w+") as f:
+            # print(build_file_for(path_tokens[-1]))
+            f.write(build_file_for(path_tokens[-1], "scala_test"))
+
+    if "/main/" in path:
+        with open("{}/BUILD.bazel".format(path), "w+") as f:
+            # print(build_file_for(path_tokens[-1]))
+            f.write(build_file_for(path_tokens[-1], "scala_library"))
 
 # for build_file in build_files_paths:
 #     # print build_file
