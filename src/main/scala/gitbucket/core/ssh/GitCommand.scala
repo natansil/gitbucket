@@ -4,7 +4,7 @@ import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.plugin.{GitRepositoryRouting, PluginRegistry}
 import gitbucket.core.service.{AccountService, DeployKeyService, RepositoryService, SystemSettingsService}
 import gitbucket.core.servlet.{CommitLogHook, Database}
-import gitbucket.core.util.{SyntaxSugars, Directory}
+import gitbucket.core.util.db.Directory}
 import org.apache.sshd.server.{Environment, ExitCallback, SessionAware}
 import org.apache.sshd.server.command.{Command, CommandFactory}
 import org.apache.sshd.server.session.ServerSession
@@ -13,7 +13,7 @@ import java.io.{File, InputStream, OutputStream}
 
 import SyntaxSugars._
 import org.eclipse.jgit.api.Git
-import Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.ssh.PublicKeyAuthenticator.AuthType
 import org.eclipse.jgit.transport.{ReceivePack, UploadPack}
 import org.apache.sshd.server.shell.UnknownCommand

@@ -8,7 +8,7 @@ import gitbucket.core.GitBucketCoreModule
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.{ActivityService, SystemSettingsService}
 import gitbucket.core.util.db.DatabaseConfig
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.JDBCUtil._
 import gitbucket.core.model.Profile.profile.blockingApi._

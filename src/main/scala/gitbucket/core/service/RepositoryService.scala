@@ -10,7 +10,7 @@ import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.model.Profile.dateColumnType
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.WebHookService.WebHookPushPayload
-import gitbucket.core.util.Directory.{getRepositoryDir, getRepositoryFilesDir, getTemporaryDir, getWikiRepositoryDir}
+import gitbucket.core.util.db.Directory.{getRepositoryDir, getRepositoryFilesDir, getTemporaryDir, getWikiRepositoryDir}
 import gitbucket.core.util.JGitUtil.{CommitInfo, FileInfo}
 import org.apache.commons.io.FileUtils
 import org.eclipse.jgit.api.Git

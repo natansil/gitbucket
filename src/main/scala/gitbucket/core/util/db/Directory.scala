@@ -1,4 +1,4 @@
-package gitbucket.core.util
+package gitbucket.core.util.db
 
 import java.io.File
 

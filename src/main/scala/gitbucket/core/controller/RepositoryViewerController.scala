@@ -12,7 +12,7 @@ import gitbucket.core.util._
 import gitbucket.core.util.StringUtil._
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.model.{Account, CommitState, CommitStatus}
 import gitbucket.core.view
 import gitbucket.core.view.helpers

@@ -1,9 +1,9 @@
-package gitbucket.core.util
+package gitbucket.core.util.db
 
 import com.typesafe.config.ConfigFactory
 import java.io.File
 
-import Directory._
+import gitbucket.core.util.db.Directory._
 import ConfigUtil._
 import com.github.takezoe.slick.blocking.{BlockingH2Driver, BlockingJdbcProfile, BlockingMySQLDriver}
 import gitbucket.core.util.db.SyntaxSugars.defining

@@ -5,7 +5,7 @@ import gitbucket.core.model.Profile._
 import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.WebHookService.WebHookPushPayload
-import gitbucket.core.util.Directory.getRepositoryDir
+import gitbucket.core.util.db.Directory.getRepositoryDir
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.{JGitUtil, LockUtil}
 import gitbucket.core.util.db.SyntaxSugars.using

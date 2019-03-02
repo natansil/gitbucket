@@ -1,6 +1,6 @@
 package gitbucket.core.service
 
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.GitSpecUtil._
 

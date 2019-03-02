@@ -10,7 +10,7 @@ import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.model.Profile.dateColumnType
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.RepositoryService.RepositoryInfo
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.{FileUtil, StringUtil}
 import org.apache.commons.io.FileUtils
 

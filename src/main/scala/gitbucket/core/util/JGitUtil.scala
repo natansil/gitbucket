@@ -4,7 +4,7 @@ import java.io.{ByteArrayOutputStream, File, FileInputStream, InputStream}
 
 import gitbucket.core.service.RepositoryService
 import org.eclipse.jgit.api.Git
-import Directory._
+import gitbucket.core.util.db.Directory._
 import StringUtil._
 import SyntaxSugars._
 

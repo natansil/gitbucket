@@ -1,4 +1,4 @@
-package gitbucket.core.util
+package gitbucket.core.util.db
 
 import org.eclipse.jgit.api.Git
 import scala.util.control.Exception._

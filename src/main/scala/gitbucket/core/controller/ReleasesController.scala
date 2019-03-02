@@ -4,7 +4,7 @@ import java.io.File
 
 import gitbucket.core.service.{AccountService, ActivityService, ReleaseService, RepositoryService}
 import gitbucket.core.util._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import org.scalatra.forms._
 import gitbucket.core.releases.html

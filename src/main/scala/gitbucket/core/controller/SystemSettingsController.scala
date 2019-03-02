@@ -9,7 +9,7 @@ import gitbucket.core.plugin.{PluginInfoBase, PluginRegistry, PluginRepository}
 import gitbucket.core.service.SystemSettingsService._
 import gitbucket.core.service.{AccountService, RepositoryService}
 import gitbucket.core.ssh.SshServer
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.StringUtil._
 import gitbucket.core.util.db.SyntaxSugars._

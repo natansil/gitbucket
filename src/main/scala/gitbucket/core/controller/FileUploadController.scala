@@ -7,7 +7,7 @@ import gitbucket.core.service.{AccountService, ReleaseService, RepositoryService
 import gitbucket.core.servlet.Database
 import gitbucket.core.util._
 import gitbucket.core.util.db.SyntaxSugars._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.dircache.DirCache

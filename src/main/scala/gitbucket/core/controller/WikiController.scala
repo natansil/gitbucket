@@ -9,7 +9,7 @@ import gitbucket.core.util._
 import gitbucket.core.util.StringUtil._
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import org.scalatra.forms._
 import org.eclipse.jgit.api.Git
 import org.scalatra.i18n.Messages

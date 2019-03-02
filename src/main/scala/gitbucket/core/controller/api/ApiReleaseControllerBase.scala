@@ -4,7 +4,7 @@ import java.io.{ByteArrayInputStream, File}
 import gitbucket.core.api._
 import gitbucket.core.controller.ControllerBase
 import gitbucket.core.service.{AccountService, ReleaseService}
-import gitbucket.core.util.Directory.getReleaseFilesDir
+import gitbucket.core.util.db.Directory.getReleaseFilesDir
 import gitbucket.core.util.{FileUtil, ReferrerAuthenticator, RepositoryName, WritableUsersAuthenticator}
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.db.SyntaxSugars.defining

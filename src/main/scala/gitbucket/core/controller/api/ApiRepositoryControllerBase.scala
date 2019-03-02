@@ -3,7 +3,7 @@ import gitbucket.core.api._
 import gitbucket.core.controller.ControllerBase
 import gitbucket.core.service.{AccountService, RepositoryCreationService, RepositoryService}
 import gitbucket.core.servlet.Database
-import gitbucket.core.util.Directory.getRepositoryDir
+import gitbucket.core.util.db.Directory.getRepositoryDir
 import gitbucket.core.util._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.db.SyntaxSugars.using

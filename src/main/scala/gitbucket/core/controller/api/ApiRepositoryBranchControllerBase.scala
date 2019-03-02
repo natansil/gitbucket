@@ -4,7 +4,7 @@ import gitbucket.core.controller.ControllerBase
 import gitbucket.core.service.{AccountService, ProtectedBranchService, RepositoryService}
 import gitbucket.core.util._
 import gitbucket.core.util.db.SyntaxSugars._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.getBranches
 import org.eclipse.jgit.api.Git

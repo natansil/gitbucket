@@ -10,7 +10,7 @@ import gitbucket.core.service.PullRequestService._
 import gitbucket.core.service.RepositoryService.RepositoryInfo
 import gitbucket.core.service._
 import gitbucket.core.util.db.SyntaxSugars._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util._
 import org.scalatra.forms._

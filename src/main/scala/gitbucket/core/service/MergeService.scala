@@ -5,7 +5,7 @@ import gitbucket.core.controller.Context
 import gitbucket.core.model.{Account, PullRequest, WebHook}
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.RepositoryService.RepositoryInfo
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.{JGitUtil, LockUtil}
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.model.Profile._

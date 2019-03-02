@@ -3,7 +3,7 @@ import gitbucket.core.api.{ApiCommits, JsonFormat}
 import gitbucket.core.controller.ControllerBase
 import gitbucket.core.model.Account
 import gitbucket.core.service.{AccountService, CommitsService}
-import gitbucket.core.util.Directory.getRepositoryDir
+import gitbucket.core.util.db.Directory.getRepositoryDir
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.{JGitUtil, ReferrerAuthenticator, RepositoryName}

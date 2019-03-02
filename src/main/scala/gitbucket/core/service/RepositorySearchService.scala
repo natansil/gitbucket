@@ -3,7 +3,7 @@ package gitbucket.core.service
 import gitbucket.core.model.Issue
 import gitbucket.core.util._
 import gitbucket.core.util.StringUtil
-import Directory._
+import gitbucket.core.util.db.Directory._
 import SyntaxSugars._
 import org.eclipse.jgit.revwalk.RevWalk
 import org.eclipse.jgit.treewalk.TreeWalk

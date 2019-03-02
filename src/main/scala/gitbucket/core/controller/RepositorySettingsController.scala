@@ -11,7 +11,7 @@ import gitbucket.core.util._
 import gitbucket.core.util.JGitUtil._
 import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import org.scalatra.forms._
 import org.scalatra.i18n.Messages
 import org.eclipse.jgit.api.Git

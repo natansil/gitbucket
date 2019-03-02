@@ -5,7 +5,7 @@ import gitbucket.core.controller.{ReleaseController, _}
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.SystemSettingsService
 import gitbucket.core.servlet._
-import gitbucket.core.util.Directory
+import gitbucket.core.util.db.Directory
 import org.scalatra._
 
 class ScalatraBootstrap extends LifeCycle with SystemSettingsService {

@@ -5,7 +5,7 @@ import gitbucket.core.model.{Account, Issue, PullRequest, Repository}
 import gitbucket.core.service._
 import gitbucket.core.service.IssuesService.IssueSearchCondition
 import gitbucket.core.service.PullRequestService.PullRequestLimit
-import gitbucket.core.util.Directory.getRepositoryDir
+import gitbucket.core.util.db.Directory.getRepositoryDir
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.db.SyntaxSugars.using

@@ -10,7 +10,7 @@ import gitbucket.core.service._
 import gitbucket.core.service.WebHookService._
 import gitbucket.core.ssh.SshUtil
 import gitbucket.core.util.db.SyntaxSugars._
-import gitbucket.core.util.Directory._
+import gitbucket.core.util.db.Directory._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.StringUtil._
 import gitbucket.core.util._

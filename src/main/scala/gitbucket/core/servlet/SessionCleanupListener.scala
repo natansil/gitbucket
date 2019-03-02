@@ -1,9 +1,9 @@
 package gitbucket.core.servlet
 
 import javax.servlet.http.{HttpSessionEvent, HttpSessionListener}
-import gitbucket.core.util.Directory
+import gitbucket.core.util.db.Directory
 import org.apache.commons.io.FileUtils
-import Directory._
+import gitbucket.core.util.db.Directory._
 
 /**
  * Removes session associated temporary files when session is destroyed.
