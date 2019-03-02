@@ -13,3 +13,18 @@ scala_import(
 )
 
 
+
+scala_import(
+    name = "solidbase",
+    jars = [
+        "//external:jar/io/github/gitbucket/solidbase"
+    ],
+    runtime_deps = [
+        "//3rdparty/jvm/org/liquibase:liquibase_core"
+    ],
+    visibility = [
+        "//visibility:public"
+    ]
+)
+
+

@@ -30,6 +30,21 @@ scala_import(
 
 
 scala_import(
+    name = "mysql",
+    jars = [
+        "//external:jar/org/testcontainers/mysql"
+    ],
+    runtime_deps = [
+        ":jdbc"
+    ],
+    visibility = [
+        "//visibility:public"
+    ]
+)
+
+
+
+scala_import(
     name = "postgresql",
     jars = [
         "//external:jar/org/testcontainers/postgresql"

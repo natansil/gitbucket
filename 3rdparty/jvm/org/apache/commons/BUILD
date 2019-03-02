@@ -1,11 +1,11 @@
 load("@io_bazel_rules_scala//scala:scala_import.bzl", "scala_import")
-java_library(
+scala_import(
     name = "commons_compress",
-    exports = [
+    jars = [
         "//external:jar/org/apache/commons/commons_compress"
     ],
     visibility = [
-        "//3rdparty/jvm:__subpackages__"
+        "//visibility:public"
     ]
 )
 

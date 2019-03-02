@@ -33,3 +33,18 @@ scala_import(
 )
 
 
+
+scala_import(
+    name = "org_eclipse_jgit_http_server",
+    jars = [
+        "//external:jar/org/eclipse/jgit/org_eclipse_jgit_http_server"
+    ],
+    runtime_deps = [
+        ":org_eclipse_jgit"
+    ],
+    visibility = [
+        "//visibility:public"
+    ]
+)
+
+

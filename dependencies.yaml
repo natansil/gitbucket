@@ -20,7 +20,6 @@ dependencies:
     org.eclipse.jgit.http.server:
       lang: scala/unmangled
       version: "5.2.0.201812061821-r"
-  org.eclipse.jgit:
     org.eclipse.jgit.archive:
       lang: scala/unmangled
       version: "5.2.0.201812061821-r"
@@ -28,11 +27,9 @@ dependencies:
     scalatra:
       lang: scala
       version: "2.6.3"
-  org.scalatra:
     scalatra-json:
       lang: scala
       version: "2.6.3"
-  org.scalatra:
     scalatra-forms:
       lang: scala
       version: "2.6.3"
@@ -48,7 +45,6 @@ dependencies:
     solidbase:
       lang: scala/unmangled
       version: "1.0.3"
-  io.github.gitbucket:
     markedj:
       lang: scala/unmangled
       version: "1.0.15"
@@ -56,7 +52,6 @@ dependencies:
     commons-compress:
       lang: scala/unmangled
       version: "1.18"
-  org.apache.commons:
     commons-email:
       lang: scala/unmangled
       version: "1.5"
@@ -171,7 +166,6 @@ dependencies:
     mysql:
       lang: scala/unmangled
       version: "1.10.3"
-  org.testcontainers:
     postgresql:
       lang: scala/unmangled
       version: "1.10.3"
