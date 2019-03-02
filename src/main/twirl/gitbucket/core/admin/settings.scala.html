@@ -1,6 +1,6 @@
 @(info: Option[Any])(implicit context: gitbucket.core.controller.Context)
 @import gitbucket.core.service.OpenIDConnectService
-@import gitbucket.core.util.DatabaseConfig
+@import gitbucket.core.util.db.DatabaseConfig
 @gitbucket.core.html.main("System settings"){
   @gitbucket.core.admin.html.menu("system"){
     @gitbucket.core.helper.html.information(info)

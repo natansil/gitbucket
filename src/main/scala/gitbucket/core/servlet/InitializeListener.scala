@@ -7,7 +7,7 @@ import com.typesafe.config.ConfigFactory
 import gitbucket.core.GitBucketCoreModule
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.{ActivityService, SystemSettingsService}
-import gitbucket.core.util.DatabaseConfig
+import gitbucket.core.util.db.DatabaseConfig
 import gitbucket.core.util.Directory._
 import gitbucket.core.util.SyntaxSugars._
 import gitbucket.core.util.JDBCUtil._

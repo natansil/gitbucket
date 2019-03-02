@@ -1,6 +1,6 @@
 package(default_visibility = ["//visibility:public"])
 
-scala_library(
+scala_test(
     name = "ssh",
     srcs = glob(["*.java"]) + glob(["*.scala"]),
     runtime_deps = [

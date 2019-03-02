@@ -3,7 +3,7 @@ package gitbucket.core.servlet
 import javax.servlet._
 import javax.servlet.http.HttpServletRequest
 import com.zaxxer.hikari._
-import gitbucket.core.util.DatabaseConfig
+import gitbucket.core.util.db.DatabaseConfig
 import org.scalatra.ScalatraBase
 import org.slf4j.LoggerFactory
 import slick.jdbc.JdbcBackend.{Database => SlickDatabase, Session}

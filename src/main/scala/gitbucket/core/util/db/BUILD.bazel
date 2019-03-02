@@ -1,7 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
-scala_test(
-    name = "view",
+scala_library(
+    name = "db",
     srcs = glob(["*.java"]) + glob(["*.scala"]),
     runtime_deps = [
     ],

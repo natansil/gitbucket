@@ -1,7 +1,7 @@
 package gitbucket.core.model
 
 import com.github.takezoe.slick.blocking.BlockingJdbcProfile
-import gitbucket.core.util.DatabaseConfig
+import gitbucket.core.util.db.DatabaseConfig
 
 trait Profile {
   val profile: BlockingJdbcProfile

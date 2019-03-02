@@ -15,7 +15,7 @@ import gitbucket.core.service.ProtectedBranchService.ProtectedBranchReceiveHook
 import gitbucket.core.service.RepositoryService.RepositoryInfo
 import gitbucket.core.service.SystemSettingsService
 import gitbucket.core.service.SystemSettingsService.SystemSettings
-import gitbucket.core.util.DatabaseConfig
+import gitbucket.core.util.db.DatabaseConfig
 import gitbucket.core.util.Directory._
 import gitbucket.core.util.HttpClientUtil._
 import io.github.gitbucket.solidbase.Solidbase
