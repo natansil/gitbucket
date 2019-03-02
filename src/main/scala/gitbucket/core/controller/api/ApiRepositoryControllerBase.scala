@@ -6,7 +6,7 @@ import gitbucket.core.servlet.Database
 import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import gitbucket.core.model.Profile.profile.blockingApi._
 import org.eclipse.jgit.api.Git
 

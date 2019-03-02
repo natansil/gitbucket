@@ -8,7 +8,7 @@ import gitbucket.core.service.PullRequestService.PullRequestLimit
 import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.CommitInfo
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import gitbucket.core.util._
 import org.eclipse.jgit.api.Git
 import org.scalatra.NoContent

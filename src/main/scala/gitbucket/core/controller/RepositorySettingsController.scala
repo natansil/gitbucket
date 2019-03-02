@@ -9,7 +9,7 @@ import gitbucket.core.service._
 import gitbucket.core.service.WebHookService._
 import gitbucket.core.util._
 import gitbucket.core.util.JGitUtil._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.Directory._
 import org.scalatra.forms._

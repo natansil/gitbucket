@@ -5,7 +5,7 @@ import gitbucket.core.controller.Context
 import gitbucket.core.model.Account
 import gitbucket.core.service.RepositoryService.RepositoryInfo
 import gitbucket.core.util._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.treewalk.CanonicalTreeParser
 import org.eclipse.jgit.lib._

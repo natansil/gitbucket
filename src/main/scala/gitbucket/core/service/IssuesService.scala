@@ -3,7 +3,7 @@ package gitbucket.core.service
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.StringUtil._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.controller.Context
 import gitbucket.core.model.{
   Account,

@@ -3,7 +3,7 @@ package gitbucket.core.service
 import gitbucket.core.api.JsonFormat
 import gitbucket.core.controller.Context
 import gitbucket.core.util._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.model.{CommitComments => _, Session => _, _}
 import gitbucket.core.model.Profile._
 import gitbucket.core.model.Profile.profile.blockingApi._

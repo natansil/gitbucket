@@ -9,7 +9,7 @@ import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.{ActivityService, SystemSettingsService}
 import gitbucket.core.util.db.DatabaseConfig
 import gitbucket.core.util.Directory._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.JDBCUtil._
 import gitbucket.core.model.Profile.profile.blockingApi._
 import io.github.gitbucket.solidbase.Solidbase

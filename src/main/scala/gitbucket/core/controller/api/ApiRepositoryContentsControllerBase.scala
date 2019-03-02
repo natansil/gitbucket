@@ -5,7 +5,7 @@ import gitbucket.core.service.{RepositoryCommitFileService, RepositoryService}
 import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util.JGitUtil.{FileInfo, getContentFromId, getFileList}
 import gitbucket.core.util._
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import gitbucket.core.view.helpers.{isRenderable, renderMarkup}
 import gitbucket.core.util.Implicits._
 import org.eclipse.jgit.api.Git

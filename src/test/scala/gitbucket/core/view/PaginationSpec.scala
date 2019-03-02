@@ -1,6 +1,6 @@
 package gitbucket.core.view
 
-import gitbucket.core.util.SyntaxSugars
+import gitbucket.core.util.db.SyntaxSugars
 import SyntaxSugars._
 import org.scalatest.FunSpec
 

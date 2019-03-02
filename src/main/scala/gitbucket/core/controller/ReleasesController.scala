@@ -8,7 +8,7 @@ import gitbucket.core.util.Directory._
 import gitbucket.core.util.Implicits._
 import org.scalatra.forms._
 import gitbucket.core.releases.html
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import org.apache.commons.io.FileUtils
 import org.eclipse.jgit.api.Git
 

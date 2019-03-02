@@ -12,7 +12,7 @@ import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.lib.{ObjectReader, Repository}
 import org.eclipse.jgit.revwalk.{RevTree, RevWalk}
 import org.eclipse.jgit.treewalk.TreeWalk
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 
 object EditorConfigUtil {
   private class JGitResource(repo: Repository, revStr: String, path: Ec4jPath) extends Resource {

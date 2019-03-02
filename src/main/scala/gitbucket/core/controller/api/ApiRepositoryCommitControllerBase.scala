@@ -7,7 +7,7 @@ import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.{JGitUtil, ReferrerAuthenticator, RepositoryName}
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.revwalk.RevWalk
 

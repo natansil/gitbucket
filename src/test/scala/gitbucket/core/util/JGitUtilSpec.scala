@@ -1,7 +1,7 @@
 package gitbucket.core.util
 
 import GitSpecUtil._
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import org.apache.commons.io.IOUtils
 import org.eclipse.jgit.diff.DiffEntry
 import org.eclipse.jgit.diff.DiffEntry.ChangeType

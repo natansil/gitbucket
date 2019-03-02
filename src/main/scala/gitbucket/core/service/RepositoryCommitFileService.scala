@@ -8,7 +8,7 @@ import gitbucket.core.service.WebHookService.WebHookPushPayload
 import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util.JGitUtil.CommitInfo
 import gitbucket.core.util.{JGitUtil, LockUtil}
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.dircache.{DirCache, DirCacheBuilder}
 import org.eclipse.jgit.lib._

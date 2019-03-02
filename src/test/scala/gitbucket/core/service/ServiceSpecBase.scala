@@ -2,7 +2,7 @@ package gitbucket.core.service
 
 import gitbucket.core.GitBucketCoreModule
 import gitbucket.core.util.{DatabaseConfig, Directory, FileUtil, JGitUtil}
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import io.github.gitbucket.solidbase.Solidbase
 import liquibase.database.core.H2Database
 import liquibase.database.jvm.JdbcConnection

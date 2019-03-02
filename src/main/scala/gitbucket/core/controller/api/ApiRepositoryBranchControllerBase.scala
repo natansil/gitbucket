@@ -3,7 +3,7 @@ import gitbucket.core.api._
 import gitbucket.core.controller.ControllerBase
 import gitbucket.core.service.{AccountService, ProtectedBranchService, RepositoryService}
 import gitbucket.core.util._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Directory._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.JGitUtil.getBranches

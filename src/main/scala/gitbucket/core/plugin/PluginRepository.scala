@@ -1,7 +1,7 @@
 package gitbucket.core.plugin
 
 import gitbucket.core.controller.Context
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import gitbucket.core.util.HttpClientUtil._
 import org.json4s._
 import org.apache.commons.io.IOUtils

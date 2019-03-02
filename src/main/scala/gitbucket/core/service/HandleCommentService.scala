@@ -4,7 +4,7 @@ import gitbucket.core.controller.Context
 import gitbucket.core.model.Issue
 import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.plugin.PluginRegistry
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
 
 trait HandleCommentService {

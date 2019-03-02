@@ -7,7 +7,7 @@ import gitbucket.core.wiki.html
 import gitbucket.core.service._
 import gitbucket.core.util._
 import gitbucket.core.util.StringUtil._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util.Directory._
 import org.scalatra.forms._

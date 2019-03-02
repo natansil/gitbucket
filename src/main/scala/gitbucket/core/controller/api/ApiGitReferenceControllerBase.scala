@@ -3,7 +3,7 @@ import gitbucket.core.api.{ApiObject, ApiRef, JsonFormat}
 import gitbucket.core.controller.ControllerBase
 import gitbucket.core.util.Directory.getRepositoryDir
 import gitbucket.core.util.ReferrerAuthenticator
-import gitbucket.core.util.SyntaxSugars.using
+import gitbucket.core.util.db.SyntaxSugars.using
 import gitbucket.core.util.Implicits._
 import org.eclipse.jgit.api.Git
 import scala.collection.JavaConverters._

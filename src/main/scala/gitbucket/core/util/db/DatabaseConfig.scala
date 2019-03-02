@@ -6,7 +6,7 @@ import java.io.File
 import Directory._
 import ConfigUtil._
 import com.github.takezoe.slick.blocking.{BlockingH2Driver, BlockingJdbcProfile, BlockingMySQLDriver}
-import gitbucket.core.util.SyntaxSugars.defining
+import gitbucket.core.util.db.SyntaxSugars.defining
 import liquibase.database.AbstractJdbcDatabase
 import liquibase.database.core.{H2Database, MySQLDatabase, PostgresDatabase}
 import org.apache.commons.io.FileUtils

@@ -11,7 +11,7 @@ import gitbucket.core.service.{
 }
 import gitbucket.core.util.{ReferrerAuthenticator, WritableUsersAuthenticator}
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import org.scalatra.forms._
 import org.scalatra.i18n.Messages
 import org.scalatra.Ok

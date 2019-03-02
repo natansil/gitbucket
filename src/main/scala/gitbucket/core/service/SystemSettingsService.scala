@@ -7,7 +7,7 @@ import com.nimbusds.oauth2.sdk.id.{ClientID, Issuer}
 import gitbucket.core.service.SystemSettingsService._
 import gitbucket.core.util.ConfigUtil._
 import gitbucket.core.util.Directory._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 
 trait SystemSettingsService {
 

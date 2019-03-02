@@ -11,7 +11,7 @@ import gitbucket.core.plugin.{GitRepositoryRouting, PluginRegistry}
 import gitbucket.core.service.IssuesService.IssueSearchCondition
 import gitbucket.core.service.WebHookService._
 import gitbucket.core.service._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util.Implicits._
 import gitbucket.core.util._
 import org.eclipse.jgit.api.Git

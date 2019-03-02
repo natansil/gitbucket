@@ -3,7 +3,7 @@ package gitbucket.core.service
 import gitbucket.core.model.Profile.profile.blockingApi._
 import gitbucket.core.model.Profile.{AccountFederations, Accounts}
 import gitbucket.core.model.{Account, AccountFederation}
-import gitbucket.core.util.SyntaxSugars.~
+import gitbucket.core.util.db.SyntaxSugars.~
 import org.slf4j.LoggerFactory
 
 trait AccountFederationService {

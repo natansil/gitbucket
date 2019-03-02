@@ -7,7 +7,7 @@ import gitbucket.core.service.{AccountService, ReleaseService}
 import gitbucket.core.util.Directory.getReleaseFilesDir
 import gitbucket.core.util.{FileUtil, ReferrerAuthenticator, RepositoryName, WritableUsersAuthenticator}
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.SyntaxSugars.defining
+import gitbucket.core.util.db.SyntaxSugars.defining
 import org.apache.commons.io.FileUtils
 import org.scalatra.{Created, NoContent}
 

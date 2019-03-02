@@ -8,7 +8,7 @@ import gitbucket.core.helper.xml
 import gitbucket.core.model.Account
 import gitbucket.core.service._
 import gitbucket.core.util.Implicits._
-import gitbucket.core.util.SyntaxSugars._
+import gitbucket.core.util.db.SyntaxSugars._
 import gitbucket.core.util._
 import gitbucket.core.view.helpers._
 import org.scalatra.Ok
