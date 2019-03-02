@@ -6,5 +6,6 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@scalac_rules_commons_io",
     ],
 )

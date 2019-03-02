@@ -17,3 +17,6 @@ scala_repositories(("2.12.6", {
 
 load("@io_bazel_rules_scala//scala:toolchains.bzl", "scala_register_toolchains")
 scala_register_toolchains()
+
+load("//3rdparty:workspace.bzl", "maven_dependencies")
+maven_dependencies()
