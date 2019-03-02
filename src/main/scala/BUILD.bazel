@@ -6,5 +6,7 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core/util/db",
+        "@javax_servlet_javax_servlet_api//jar",
     ],
 )

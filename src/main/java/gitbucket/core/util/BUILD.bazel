@@ -6,5 +6,6 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@org_eclipse_jgit_org_eclipse_jgit//jar",
     ],
 )

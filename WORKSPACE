@@ -15,8 +15,10 @@ scala_repositories(("2.12.6", {
     "scala_reflect": "ffa70d522fc9f9deec14358aa674e6dd75c9dfa39d4668ef15bb52f002ce99fa"
 }))
 
-load("@io_bazel_rules_scala//scala:toolchains.bzl", "scala_register_toolchains")
-scala_register_toolchains()
+# load("@io_bazel_rules_scala//scala:toolchains.bzl", "scala_register_toolchains")
+# scala_register_toolchains()
+
+register_toolchains("//toolchains:gitbucket_toolchain")
 
 load("//3rdparty:workspace.bzl", "maven_dependencies")
 maven_dependencies()

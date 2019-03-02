@@ -6,5 +6,16 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core/util/db",
+        "@com_typesafe_slick_slick_2_12//jar",
+        "@io_bazel_rules_scala_scala_library",
+        "@javax_servlet_javax_servlet_api//jar",
+        "@org_apache_httpcomponents_httpcore//jar",
+        "@org_eclipse_jgit_org_eclipse_jgit//jar",
+        "@org_eclipse_jgit_org_eclipse_jgit_http_server//jar",
+        "@org_json4s_json4s_core_2_12//jar",
+        "@org_json4s_json4s_jackson_2_12//jar",
+        "@org_slf4j_slf4j_api//jar",
+        "@scalac_rules_commons_io",
     ],
 )

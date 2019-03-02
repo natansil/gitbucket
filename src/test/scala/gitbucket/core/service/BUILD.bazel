@@ -6,5 +6,6 @@ scala_test(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core/util/db",
     ],
 )

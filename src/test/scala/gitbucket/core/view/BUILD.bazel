@@ -6,5 +6,7 @@ scala_test(
     runtime_deps = [
     ],
     deps = [
+        "@javax_servlet_javax_servlet_api//jar",
+        "@org_mockito_mockito_core//jar",
     ],
 )

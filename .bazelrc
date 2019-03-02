@@ -4,3 +4,4 @@ fetch --experimental_multi_threaded_digest=true
 # build
 build --strategy=Scalac=worker
 build --experimental_multi_threaded_digest=true
+build --nouse_ijars

@@ -6,5 +6,8 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core/util/db",
+        "@com_github_takezoe_blocking_slick_32_2_12//jar",
+        "@com_typesafe_slick_slick_2_12//jar",
     ],
 )

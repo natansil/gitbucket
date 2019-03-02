@@ -6,5 +6,6 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@io_github_gitbucket_solidbase//jar",
     ],
 )

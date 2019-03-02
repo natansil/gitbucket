@@ -6,5 +6,13 @@ scala_test(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core",
+        "@com_dimafeng_testcontainers_scala_2_12//jar",
+        "@io_github_gitbucket_solidbase//jar",
+        "@junit_junit//jar",
+        "@org_liquibase_liquibase_core//jar",
+        "@org_testcontainers_jdbc//jar",
+        "@org_testcontainers_mysql//jar",
+        "@org_testcontainers_testcontainers//jar",
     ],
 )

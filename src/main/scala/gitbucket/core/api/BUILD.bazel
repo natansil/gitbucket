@@ -6,5 +6,9 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@org_eclipse_jgit_org_eclipse_jgit//jar",
+        "@org_json4s_json4s_ast_2_12//jar",
+        "@org_json4s_json4s_core_2_12//jar",
+        "@org_json4s_json4s_jackson_2_12//jar",
     ],
 )

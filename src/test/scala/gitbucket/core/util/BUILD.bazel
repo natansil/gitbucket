@@ -6,5 +6,9 @@ scala_test(
     runtime_deps = [
     ],
     deps = [
+        "//src/main/scala/gitbucket/core/util/db",
+        "@io_bazel_rules_scala_scala_library",
+        "@org_eclipse_jgit_org_eclipse_jgit//jar",
+        "@scalac_rules_commons_io",
     ],
 )

@@ -6,5 +6,10 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@com_nimbusds_nimbus_jose_jwt//jar",
+        "@io_bazel_rules_scala_scala_library",
+        "@io_github_gitbucket_markedj//jar",
+        "@org_json4s_json4s_core_2_12//jar",
+        "@org_json4s_json4s_jackson_2_12//jar",
     ],
 )

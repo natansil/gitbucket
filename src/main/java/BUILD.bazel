@@ -6,5 +6,9 @@ scala_library(
     runtime_deps = [
     ],
     deps = [
+        "@org_eclipse_jetty_jetty_server//jar",
+        "@org_eclipse_jetty_jetty_servlet//jar",
+        "@org_eclipse_jetty_jetty_util//jar",
+        "@org_eclipse_jetty_jetty_webapp//jar",
     ],
 )
